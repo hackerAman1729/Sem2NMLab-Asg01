@@ -1,0 +1,178 @@
+#output of q1.py
+
+The length of string is: 10
+{'A': 4, 'C': 3, 'G': 2, 'T': 1}
+
+#output of q2.py
+
+seq1
+A: 121
+C: 104
+G: 88
+T: 107
+seq2
+A: 148
+C: 143
+G: 156
+T: 153
+seq3
+A: 157
+C: 140
+G: 163
+T: 140
+seq4
+A: 154
+C: 166
+G: 134
+T: 146
+seq5
+A: 44
+C: 74
+G: 58
+T: 64
+seq6
+A: 154
+C: 135
+G: 116
+T: 135
+seq7
+A: 105
+C: 124
+G: 121
+T: 130
+seq8
+A: 48
+C: 58
+G: 70
+T: 64
+seq9
+A: 190
+C: 196
+G: 158
+T: 176
+seq10
+A: 76
+C: 71
+G: 76
+T: 77
+seq11
+A: 131
+C: 135
+G: 106
+T: 108
+seq12
+A: 159
+C: 143
+G: 160
+T: 138
+seq13
+A: 119
+C: 96
+G: 131
+T: 134
+seq14
+A: 86
+C: 97
+G: 85
+T: 92
+seq15
+A: 77
+C: 68
+G: 84
+T: 71
+seq16
+A: 143
+C: 129
+G: 117
+T: 151
+seq17
+A: 143
+C: 183
+G: 168
+T: 166
+seq18
+A: 101
+C: 110
+G: 103
+T: 106
+seq19
+A: 78
+C: 71
+G: 85
+T: 66
+seq20
+A: 144
+C: 125
+G: 145
+T: 126
+seq21
+A: 78
+C: 71
+G: 77
+T: 74
+seq22
+A: 61
+C: 54
+G: 64
+T: 61
+seq23
+A: 108
+C: 97
+G: 120
+T: 95
+seq24
+A: 93
+C: 82
+G: 95
+T: 90
+seq25
+A: 90
+C: 85
+G: 101
+T: 84
+seq26
+A: 168
+C: 187
+G: 200
+T: 165
+seq27
+A: 89
+C: 96
+G: 98
+T: 77
+seq28
+A: 56
+C: 63
+G: 63
+T: 58
+seq29
+A: 149
+C: 159
+G: 142
+T: 150
+seq30
+A: 132
+C: 135
+G: 135
+T: 138
+Total nucleotide count: 13560
+Average base count per sequence:
+A: 113.4
+C: 113.23333333333333
+G: 113.96666666666667
+T: 111.4
+
+#output of q3.py
+
+ACCGGGTTTT
+
+#output of q4.py
+
+Most frequent 3-mers: ['TGA'] (Count: 25)
+Most frequent 4-mers: ['ATGA'] (Count: 12)
+Most frequent 5-mers: ['TGATC', 'GATCA'] (Count: 8)
+Most frequent 6-mers: ['TGATCA'] (Count: 8)
+Most frequent 7-mers: ['ATGATCA'] (Count: 5)
+Most frequent 8-mers: ['ATGATCAA'] (Count: 4)
+Most frequent 9-mers: ['ATGATCAAG', 'CTCTTGATC', 'TCTTGATCA'] (Count: 3)
+Most frequent 10-mers: ['CTCTTGATCA'] (Count: 3)

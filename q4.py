@@ -1,0 +1,24 @@
+def find_frequent_patterns(text, k):
+  patterns = {}
+  for i in range(len(text) - k + 1):
+      pattern = text[i:i+k]
+      if pattern in patterns:
+          patterns[pattern] += 1
+      else:
+          patterns[pattern] = 1
+  max_count = max(patterns.values())
+  max_patterns = [kmer for kmer, count in patterns.items() if count == max_count]
+  return max_patterns, max_count
+
+string = """ATCAATGATCAACGTAAGCTTCTAAGCATGATCAAGGTGCTCACACAGTTTATCCACAACCTGAGTGG
+ATGACATCAAGATAGGTCGTTGTATCTCCTTCCTCTCGTACTCTCATGACCACGGAAAGATGATCAAG
+AGAGGATGATTTCTTGGCCATATCGCAATGAATACTTGTGACTTGTGCTTCCAATTGACATCTTCAGC
+GCCATATTGCGCTGGCCAAGGTGACGGAGCGGGATTACGAAAGCATGATCATGGCTGTTGTTCTGTTT
+ATCTTGTTTTGACTGAGACTTGTTAGGATAGACGGTTTTTCATCACTGACTAGCCAAAGCCTTACTCT
+GCCTGACATCGACCGTAAATTGATAATGAATTTACATGCTTCCGCGACGATTTACCTCTTGATCATCG
+ATCCGATTGAAGATCTTCAATTGTTAATTCTCTTGCCTCGACTCATAGCCATGATGAGCTCTTGATCA
+TGTTTCCTTAACCCTCTATTTTTTACGGAAGAATGATCAAGCTGCTGCTCTTGATCATCGTTTC"""
+
+for k in range(3, 11):
+  max_kmers, max_count = find_frequent_patterns(string, k)
+  print(f"Most frequent {k}-mers: {max_kmers} (Count: {max_count})")
